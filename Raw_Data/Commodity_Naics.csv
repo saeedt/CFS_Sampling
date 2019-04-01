@@ -1,0 +1,44 @@
+Commodity,Context,NAICS
+01,Live animals/fish,4244
+02,Cereal grains,4245
+03,Other ag prods.,4245
+04,Animal feed,4249
+05,Meat/seafood,4244
+06,Milled grain prods.,4245
+07,Other foodstuffs,311
+08,Alcoholic beverages,312
+09,Tobacco prods.,312
+10,Building stone,4233
+11,Natural sands,4233
+12,Gravel,4233
+13,Nonmetallic minerals,327
+14,Metallic ores,2122
+15,Coal,2121
+16,Crude petroleum,324
+17,Gasoline,4543
+18,Fuel oils,4543
+19,Coal-n.e.c.,324
+20,Basic chemicals,325
+21,Pharmaceuticals,4244
+22,Fertilizers,339
+23,Chemical prods.,325
+24,Plastics/rubber,326
+25,Logs,4243
+26,Wood prods.,321
+27,Newsprint/paper,322
+28,Paper articles,5111
+29,Printed prods.,323
+30,Textiles/leather,313
+30,Textiles/leather,314
+30,Textiles/leather,316
+31,Nonmetal min. prods.,2123
+32,Base metals,2122
+33,Articles-base metal,331
+34,Machinery,4238
+35,Electronics,4237
+36,Motorized vehicles,4231
+37,Transport equip.,336
+38,Precision instruments,322
+39,Furniture,337
+40,Misc. mfg. prods.,339
+41,Waste/scrap,325
