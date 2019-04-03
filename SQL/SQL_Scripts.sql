@@ -55,7 +55,8 @@ Aggregate NAICS code according to the 2017 CFS sample design spec(Table 1 - Page
 with cbps as (select state, county, naics, ap, est from cbp where naics not similar to '%(-|/)%'), 
 cbpt as ((select state, county, substring(naics,1,4) as naics, sum(ap) as ap, sum(est) as est from cbps where substring(naics,1,4) in ('2121','2122','2123','4231','4232','4233','4234','4235','4236','4237','4238',
 '4239','4241','4242','4243','4244','4245','4246','4247','4248','4249','4541','4543','5111') group by 1,2,3) union all (select state, county, substring(naics,1,3) as naics, sum(ap) as ap, sum(est) as est from cbps where substring(naics,1,3) in ('311','312','313','314','315','316','321','322','323','324','325','326','327','331',
-'332','333','334','335','336','337','339') group by 1,2,3));
+'332','333','334','335','336','337','339') group by 1,2,3))
+select * into cbpf from cbpt;
 
 /* Create fafbp table with weight, value, miles, and total number of establishments per state/NAICS  */
 with sbp as (select state, naics, sum(ap) as ap, sum(est) as est from cbpf group by 1,2)
