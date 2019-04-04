@@ -2,7 +2,7 @@
 /*Usage:
 generate_est(Sample_size, Source_table, Value_CV, Wgt_CV, Mile_CV)
 Example: 
-SELECT * FROM generate_est(100000, 'fafcbp', 0.1, 0.1, 01);
+SELECT * FROM generate_est(100000, 'fafcbp', 0.1, 0.1, 0.1);
 */
 
 drop function if exists generate_est(integer,text,numeric,numeric,numeric);
