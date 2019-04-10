@@ -18,3 +18,6 @@ SQL Scripts used to create tables and anaylze the raw data are store in this fol
 Includes the final output of the scripts in `SQL` folder applied to the data in `Raw_Data`. 
 * `fafcbp.csv` is the combined FAF and CBP datasets in CSV format. It is the disaggregated FAF data by county and NAICS based on CBP data. This data is needed by the `generate_est` function presented in `SQL` folder.
 * `100K_Frame.csv` is a set of 100,000 establishments generated with the `generate_est` function. 
+
+## R_Scrripts
+Includes the R scripts, input data and results for the test scenarios. The file `cfs.R` is the main script which includes comments and instructions on how to run the script.
