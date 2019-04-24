@@ -20,4 +20,4 @@ Includes the final output of the scripts in `SQL` folder applied to the data in 
 * `100K_Frame.csv` is a set of 100,000 establishments generated with the `generate_est` function. 
 
 ## R_Scrripts
-Includes the R scripts, input data and results for the test scenarios. The file `cfs.R` is the main script which includes comments and instructions on how to run the script.
+Includes the R scripts, input data, and results for the sample scenario. The file `cfs1.R` is the main script which includes comments and step by step instructions on how to run the script and get the results.
