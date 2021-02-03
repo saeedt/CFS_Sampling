@@ -2,9 +2,6 @@
 Data and Scripts for the proposed sample design for CFS are stored in this repository. 
 Following are the list of folders and their content. 
 
-## Documents
-Includes the older sample design documents and the final report. 
-
 ## Raw_Data
 Main data sources used for generating the sample data are stored in this folder. 
 * `FAF441_2016.csv` is 2016 FAF acquired from <https://www.bts.gov/faf>
